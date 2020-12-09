@@ -7,7 +7,7 @@ For the custom object training I referenced and built off of [this colab noteboo
 
 For Object Tracking, I built off of a framework set up [here](https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3/blob/master/yolov3/utils.py). Again, having this notebook really sped up my ability to impliment the player tracking feature.
 
-The final presntation slides are located [here]().
+The final presntation slides are located [here](Ryan-Werth-Project-5-Slides.pdf).
 
 ## Project Goal
 Create a basic, inexpensive, alternative for cutting up game film and extracting important game information.
