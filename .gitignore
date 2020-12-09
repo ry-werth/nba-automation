@@ -1,0 +1,62 @@
+*.weights
+
+# macs
+.DS_Store
+**icon**
+**Icon**
+
+# python
+__pycache__
+*pyc
+*egg-info*
+
+#tensorflow
+*tfevents*
+
+# Sophie
+temp/**
+ignore/**
+Scratch*
+scratch*
+rise.css
+.noseids
+*.h5
+.vscode
+unit-testing/data
+.markdownlint.yaml
+*.pkl
+*.hdf5
+
+# Damien -- add .env files, as these are where we store our
+# credentials. The %load_env loads .env files into the environment
+# variables; then os.enviorn['key'] can be used in scripts to load
+# credentials without exposing them publically
+.env
+
+# jupyter
+**/.ipynb_checkpoints
+
+# MS office
+~$*
+
+# dask
+dask-worker-space/
+
+# hive
+metastore_db
+
+# pyspark-lab
+**/pyspark-lab/gbt_model_pipeline_crossval/**
+**/pyspark-lab/als_recommendation_model_pipeline_crossval/**
+**/pyspark-lab/ml-latest-small/**
+**/pyspark-lab/spam_model_pipeline_crossval/**
+**/pyspark-lab/img/**
+
+# specific data files
+!curriculum/project-03/sql-setup/data/all_state_1950.csv.gz
+mta*.txt
+
+# pycharm
+.idea
+
+.DS_store
